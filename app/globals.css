@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --color-bg: #e9ebee;
+  --color-ink: #0b0b0c;
+  --color-mu: #5e636b;
+  --color-faint: #8a8f97;
+  --color-rule: #0b0b0c1f;
+  --color-blue: #1f4dff;
+  --color-blue-dark: #1438d6;
+  --color-blue-soft: #e3e9ff;
+  --color-amber: #c97a00;
+  --color-amber-soft: #fff4de;
+  --color-red: #d92d20;
+  --color-red-soft: #fdecea;
+  --color-green: #0f7b3f;
+  --color-green-soft: #e3f4ea;
+  --shadow-hard: 6px 6px 0 #0b0b0c;
+  --shadow-hard-sm: 3px 3px 0 #0b0b0c;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image: linear-gradient(#0b0b0c0a 1px, transparent 1px), linear-gradient(90deg, #0b0b0c0a 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes scan {
+  0% { transform: translateY(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+
+@keyframes pulse-bar {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}

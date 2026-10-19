@@ -1,0 +1,164 @@
+[
+  {
+    "slug": "kestrel-cloud-kc-10482",
+    "file": "kestrel-cloud-kc-10482.pdf",
+    "mime": "application/pdf",
+    "method": "text",
+    "model": "openai/gpt-oss-120b",
+    "durationMs": 2380,
+    "ageMinutes": 4320,
+    "approvedMinutesAgo": 2880,
+    "document_type": "invoice",
+    "fields": {
+      "vendor_name": ["Kestrel Cloud, Inc.", 0.99],
+      "vendor_tax_id": ["84-2917735", 0.95],
+      "vendor_address": ["500 Market Street, Suite 900, San Francisco, CA 94105", 0.96],
+      "customer_name": ["Northwind Logistics B.V.", 0.98],
+      "invoice_number": ["KC-10482", 0.99],
+      "po_number": [null, 0.9],
+      "issue_date": ["2026-10-01", 0.98],
+      "due_date": ["2026-10-31", 0.98],
+      "payment_terms": ["Net 30", 0.96],
+      "currency": ["USD", 0.99],
+      "subtotal": [493.8, 0.98],
+      "tax_rate": [0, 0.9],
+      "tax_amount": [0, 0.96],
+      "total": [493.8, 0.99]
+    },
+    "line_items": [
+      { "description": "Compute: standard nodes (720 h)", "quantity": 720, "unit_price": 0.42, "amount": 302.4 },
+      { "description": "Object storage (1.8 TB-month)", "quantity": 1.8, "unit_price": 23, "amount": 41.4 },
+      { "description": "Business support plan", "quantity": 1, "unit_price": 150, "amount": 150 }
+    ],
+    "notes": null
+  },
+  {
+    "slug": "aster-moss-am-0057",
+    "file": "aster-moss-am-0057.pdf",
+    "mime": "application/pdf",
+    "method": "text",
+    "model": "openai/gpt-oss-120b",
+    "durationMs": 2710,
+    "ageMinutes": 1440,
+    "document_type": "invoice",
+    "fields": {
+      "vendor_name": ["Aster & Moss Studio Ltd", 0.99],
+      "vendor_tax_id": ["GB 284 1172 63", 0.97],
+      "vendor_address": ["Unit 4, 18 Vyner Street, London E2 9DG", 0.95],
+      "customer_name": ["Northwind Logistics B.V.", 0.98],
+      "invoice_number": ["AM-0057", 0.99],
+      "po_number": ["NW-PO-2210", 0.96],
+      "issue_date": ["2026-10-03", 0.97],
+      "due_date": ["2026-10-17", 0.97],
+      "payment_terms": ["14 days", 0.93],
+      "currency": ["GBP", 0.99],
+      "subtotal": [4250, 0.99],
+      "tax_rate": [20, 0.98],
+      "tax_amount": [850, 0.98],
+      "total": [5100, 0.99]
+    },
+    "line_items": [
+      { "description": "Brand workshop (1 day, on site)", "quantity": 1, "unit_price": 1200, "amount": 1200 },
+      { "description": "Logo and identity system", "quantity": 1, "unit_price": 2400, "amount": 2400 },
+      { "description": "Brand guidelines document", "quantity": 1, "unit_price": 650, "amount": 650 }
+    ],
+    "notes": null
+  },
+  {
+    "slug": "polar-freight-pf-88213",
+    "file": "polar-freight-pf-88213.pdf",
+    "mime": "application/pdf",
+    "method": "text",
+    "model": "openai/gpt-oss-120b",
+    "durationMs": 3040,
+    "ageMinutes": 300,
+    "document_type": "invoice",
+    "fields": {
+      "vendor_name": ["Polar Freight GmbH", 0.99],
+      "vendor_tax_id": ["DE 311 524 908", 0.97],
+      "vendor_address": ["Am Sandtorkai 41, 20457 Hamburg", 0.95],
+      "customer_name": ["Northwind Logistics B.V.", 0.97],
+      "invoice_number": ["PF-88213", 0.99],
+      "po_number": [null, 0.88],
+      "issue_date": ["2026-10-08", 0.93],
+      "due_date": ["2026-10-22", 0.93],
+      "payment_terms": ["14 days net", 0.94],
+      "currency": ["EUR", 0.99],
+      "subtotal": [1781.5, 0.97],
+      "tax_rate": [19, 0.98],
+      "tax_amount": [338.49, 0.97],
+      "total": [2119.99, 0.99]
+    },
+    "line_items": [
+      { "description": "Ocean freight Rotterdam → Hamburg, 1 × 40ft container", "quantity": 1, "unit_price": 1450, "amount": 1450 },
+      { "description": "Customs clearance", "quantity": 1, "unit_price": 185, "amount": 185 },
+      { "description": "Fuel surcharge", "quantity": 1, "unit_price": 96.5, "amount": 96.5 }
+    ],
+    "notes": "The line items add up to 1,731.50 but the printed subtotal is 1,781.50."
+  },
+  {
+    "slug": "brightline-inv-2291",
+    "file": "brightline-inv-2291.pdf",
+    "mime": "application/pdf",
+    "method": "text",
+    "model": "openai/gpt-oss-120b",
+    "durationMs": 3120,
+    "ageMinutes": 40,
+    "document_type": "invoice",
+    "fields": {
+      "vendor_name": ["Brightline Supplies B.V.", 0.99],
+      "vendor_tax_id": ["NL8213.44.902.B01", 0.98],
+      "vendor_address": ["14 Harbor Road, 3011 Rotterdam", 0.96],
+      "customer_name": ["Northwind Logistics B.V.", 0.98],
+      "invoice_number": ["INV-2291", 0.99],
+      "po_number": ["PO-7710", 0.95],
+      "issue_date": ["2026-10-12", 0.97],
+      "due_date": ["2026-11-11", 0.72],
+      "payment_terms": ["Net 30", 0.97],
+      "currency": ["EUR", 0.99],
+      "subtotal": [3204, 0.98],
+      "tax_rate": [21, 0.97],
+      "tax_amount": [672.84, 0.95],
+      "total": [3876.84, 0.99]
+    },
+    "line_items": [
+      { "description": "Industrial label printer", "quantity": 2, "unit_price": 620, "amount": 1240 },
+      { "description": "Thermal labels, 10k roll", "quantity": 12, "unit_price": 72, "amount": 864 },
+      { "description": "On-site installation", "quantity": 1, "unit_price": 380, "amount": 380 },
+      { "description": "Support plan, 12 months", "quantity": 1, "unit_price": 720, "amount": 720 }
+    ],
+    "notes": "No due date is printed; it was worked out from the Net 30 terms."
+  },
+  {
+    "slug": "harbor-coffee-receipt-004812",
+    "file": "harbor-coffee-receipt-004812.jpg",
+    "mime": "image/jpeg",
+    "method": "vision",
+    "model": "qwen/qwen3.8-27b",
+    "durationMs": 4260,
+    "ageMinutes": 15,
+    "document_type": "receipt",
+    "fields": {
+      "vendor_name": ["Harbor Coffee Roasters", 0.97],
+      "vendor_tax_id": [null, 0.85],
+      "vendor_address": ["221 Pier Street, Brooklyn, NY 11201", 0.88],
+      "customer_name": [null, 0.9],
+      "invoice_number": ["004812", 0.93],
+      "po_number": [null, 0.95],
+      "issue_date": ["2026-10-14", 0.94],
+      "due_date": [null, 0.9],
+      "payment_terms": [null, 0.9],
+      "currency": ["USD", 0.95],
+      "subtotal": [31.75, 0.95],
+      "tax_rate": [8.875, 0.9],
+      "tax_amount": [2.82, 0.94],
+      "total": [34.57, 0.96]
+    },
+    "line_items": [
+      { "description": "Oat flat white", "quantity": 2, "unit_price": 4.75, "amount": 9.5 },
+      { "description": "Almond croissant", "quantity": 1, "unit_price": 4.25, "amount": 4.25 },
+      { "description": "Beans Ethiopia 340g", "quantity": 1, "unit_price": 18, "amount": 18 }
+    ],
+    "notes": "Card payment receipt from a phone photo."
+  }
+]
