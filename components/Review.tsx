@@ -173,7 +173,7 @@ export function Review({ doc, pages, events }: Props) {
                         className={`w-full min-w-0 border bg-transparent px-2 py-1 font-medium ${f.kind === "text" ? "text-[14.5px]" : "font-mono text-[14px]"} outline-none placeholder:font-normal placeholder:text-faint focus:border-ink focus:bg-white disabled:text-ink ${changed ? "border-blue bg-white" : "border-transparent hover:border-rule"}`}
                       />
                       <span className={`text-right font-mono text-[12.5px] ${fv.source === "edited" ? "text-green" : fv.confidence < REVIEW_THRESHOLD && fv.value !== null ? "font-medium text-amber" : "text-faint"}`}>
-                        {fv.source === "edited" ? "edited" : fv.confidence.toFixed(2)}
+                        {fv.source === "edited" ? "edited" : fv.value === null ? "—" : fv.confidence.toFixed(2)}
                       </span>
                     </div>
                   );

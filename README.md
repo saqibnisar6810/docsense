@@ -4,7 +4,7 @@ AI invoice and receipt extraction. Drop in a PDF or a photo and get clean, valid
 
 ![DocSense](docs/cover.png)
 
-**Live demo:** https://docsense-demo.vercel.app
+**Live demo:** https://docsense-psi.vercel.app
 
 Each visitor gets a private workspace pre-filled with five sample documents. Upload your own invoice, or click **Run** next to a sample to watch the AI extract it live. Uploads are deleted after 24 hours.
 
@@ -58,7 +58,7 @@ Document text is treated as data: the prompt tells the model to ignore instructi
 ## REST API
 
 ```bash
-curl -F "file=@invoice.pdf" https://docsense-demo.vercel.app/api/extract
+curl -F "file=@invoice.pdf" https://docsense-psi.vercel.app/api/extract
 ```
 
 Returns the fields, a confidence score for each, line items, the validation results and a `needs_review` list. Nothing is stored. The demo allows 10 requests per hour per IP.
